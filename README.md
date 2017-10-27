@@ -1,26 +1,36 @@
+# Ionic Angular Boilerplate
+
+## Description
+
 This is a starter template for [Ionic](http://ionicframework.com/docs/) projects.
 
-## How to use this template
+## Pre-requisites
 
-*This template does not work on its own*. The shared files for each starter are found in the [ionic2-app-base repo](https://github.com/ionic-team/ionic2-app-base).
+* XCode for iOS
+* Android SDK
 
-To use this template, either create a new ionic project using the ionic node.js utility, or copy the files from this repository into the [Starter App Base](https://github.com/ionic-team/ionic2-app-base).
+## Setup
 
-### With the Ionic CLI:
+* `npm install`
+* `ionic cordova platform add ios`
+* `ionic cordova platform add android`
 
-Take the name after `ionic2-starter-`, and that is the name of the template to be used when using the `ionic start` command below:
+** Note: there is additional setup require for iOS and Android **
 
-```bash
-$ sudo npm install -g ionic cordova
-$ ionic start myTabs tabs
-```
+## Start
 
-Then, to run it, cd into `myTabs` and run:
+### Web
 
-```bash
-$ ionic cordova platform add ios
-$ ionic cordova run ios
-```
+* `npm run ionic:serve`
 
-Substitute ios for android if not on a Mac.
+### iOS
+
+* `ionic cordova run ios`
+* `ionic cordova run ios --live-reload`
+
+### Android
+
+* `ionic cordova run android`
+* `ionic cordova run android --live-reload`
+
 
